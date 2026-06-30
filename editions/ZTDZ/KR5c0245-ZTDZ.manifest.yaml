@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR5c0245/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0245/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 混俗頤生錄
+  date: '2015-08-29 00:54:56.488486'
+  source:
+    repository: kanripo
+    path: KR5c0245
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0245_000-ZTDZ.yaml, hash: 'sha256:214b32b4014521ba9e394a5da2f5e1eecf735934b4bac412247a82621000a242'}
+  - {seq: 1, filename: KR5c0245_001-ZTDZ.yaml, hash: 'sha256:be298fc1125d2a10f3638277aaac49e8da53d7783878d5642521c926b0ce99d4'}
+  - {seq: 2, filename: KR5c0245_002-ZTDZ.yaml, hash: 'sha256:9ec5f8b573cf8a63aa54949f5713b7f9d202c649d202198d67167dfe5fed1837'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0245_000-ZTDZ.markers.yaml, hash: 'sha256:e8bed7973276a485944fcd235cb3c925ad2d20e31943644095594c8a422a3b69'}
+  - {seq: 1, role: markers, filename: assets/KR5c0245_001-ZTDZ.markers.yaml, hash: 'sha256:d0b237c93ccdbe5b07b4696e64366852bd1e821c9bdde6865bdb9f381169aa3c'}
+  - {seq: 2, role: markers, filename: assets/KR5c0245_002-ZTDZ.markers.yaml, hash: 'sha256:0bf43f2ee714dbd3d8b731fc89f3f8062fda0bedf056640563bf5cd1f561ef55'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0245_SJB_000-180512a
+    span:
+    - body
+    - 0
+    - 607
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5c0245_SJB_001-180512c
+    span:
+    - body
+    - 0
+    - 3537
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0245_SJB_002-180516b
+    span:
+    - body
+    - 0
+    - 2928
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:1ed13ef891e23dd490aff552daddcae1ab819899813c378f9f0ec5ee13e77928
